@@ -1,0 +1,176 @@
+DlgVersion 7
+DlgName "TestDlgDialogue"
+DlgGuid {  A 978995824 B 1198631327 C 838644627 D -1911548183 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+	Children
+	{
+		{  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		{  TargetIndex 1 Text "" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+	}
+}
+DlgParticipantClasses { {  ParticipantName "Jackdaw" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Selector 
+	{
+		SelectorType "EDlgNodeSelectorType::DlgNodeSelectorFirst"
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation True
+		Children
+		{
+			{
+				TargetIndex 2
+				Text "Next"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionNodeVisited" ParticipantName "None" CallbackName "None" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 3 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Dialog 1 afasdfadfa"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 3 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Welcome back to this tutorial"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 4 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Dialog 2 adfasdfadfadf"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Dialogue Two not"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Yes" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{
+				TargetIndex 7
+				Text "Can't get here"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionNodeVisited" ParticipantName "None" CallbackName "None" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 9 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory False } }
+			}
+			{  TargetIndex 8 Text "No" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Dialogue2 fa;dlfaiejlikj"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 4 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Well fuck you"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 9 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Cannot pick this option"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 10 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Time's up"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 11 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "ok"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 10 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 10
+	Node_End 
+	{
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "dumb fuck"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Jackdaw"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 10 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+}
