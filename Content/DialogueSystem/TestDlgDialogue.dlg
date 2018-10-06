@@ -32,7 +32,7 @@ Node Nodes
 				Text "Next"
 				SpeakerState "None"
 				bIncludeInAllOptionListIfUnsatisfied True
-				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionNodeVisited" ParticipantName "None" CallbackName "None" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 3 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionNodeVisited" ParticipantName "None" CallbackName "None" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 4 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
 			}
 		}
 	}
